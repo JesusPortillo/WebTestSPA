@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <div id="login-page">
+        <div class="headForm">
+            <i class="fas fa-user"></i>
+            <h1>Ingrese sus datos</h1>
+        </div>
+        <div class="form">
+            <form class="login-form">
+                <input type="text" placeholder="Nombre" id="nombre"/>
+                <input type="text" placeholder="Apellido" id="apellido"/>
+                <input type="button" value="Ingresar" id="ocultar">
+            </form>
+        </div>
+    </div>
+
+    <div class="test-Page">
+        <nav id="nav-bar">
+            <ul id="nombres">
+            </ul>
+        </nav>
+        <div id="cuadro">
+            <span id="as1">1</span>
+            <span id="as2">2</span>
+            <span id="as3">3</span>
+            <span id="as4">4</span>
+            <span id="as5">5</span>
+            <span id="as6">6</span>
+            <span id="as7">7</span>
+            <span id="as8">8</span>
+            <span id="as9">9</span>
+            <span id="as10">10</span>
+        </div>
+        <div id="qa_box">
+            <div class="qa_header">
+                <span>Puntaje: <span id="score">0</span></span>
+            </div>
+            <div class="qa_body">
+                <div class="qa_set active">
+                    <h4>¿Qué se entiende por HTML?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a1">
+                        <span>Hyperlinks and Text Markup Language</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a1">
+                        <span>Home tool Markup Language</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a1" valid="valid">
+                        <span>Hyper Text Markup Language</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a1">
+                        <span>Cascading Styles Sheets</span>
+                    </div>
+                    <div class="nro">Pregunta 1 de 10</div>
+                    <div id="resp1">La respuesta es: Hyper Text Markup Language</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Cuantas etiquetas HTML para titulos hay?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a2">
+                        <span>1</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a2" valid="valid">
+                        <span>6</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a2">
+                        <span>3</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a2">
+                        <span>4</span>
+                    </div>
+                    <div class="nro">Pregunta 2 de 10</div>
+                    <div id="resp2">La respuesta es: 6</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Qué se entiende por CSS?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a3">
+                        <span>Computer Style Sheets</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a3" valid="valid">
+                        <span>Cascading Style Sheets</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio"class="a3">
+                        <span>Creative Style Sheets</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a3">
+                        <span>Colorful Style Sheets</span>
+                    </div>
+                    <div class="nro">Pregunta 3 de 10</div>
+                    <div id="resp3">La respuesta es: Cascading Style Sheets</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Como mostrar Hyperlinks sin subrayado  ?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a4">
+                        <span>decoration:no-underline;</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a4">
+                        <span>underline:none;</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a4" valid="valid">
+                        <span>text-decoration:none;</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a4">
+                        <span>text-decoration:no-underline;</span>
+                    </div>
+                    <div class="nro">Pregunta 4 de 10</div>
+                    <div id="resp4">La respuesta es: text-decoration:no-underline</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Como crear una función en JS?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a5" valid="valid">
+                        <span>function myFunction()</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a5">
+                        <span>function:myFunction()</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a5">
+                        <span>function=myFunction()</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a5">
+                        <span>function==myFunction()</span>
+                    </div>
+                    <div class="nro">Pregunta 5 de 10</div>
+                    <div id="resp5">La respuesta es: function myFunction()</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Cual de los siguientes es un software de control de versiones?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a6" valid="valid">
+                        <span>Git</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a6">
+                        <span>Rust</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a6">
+                        <span>SQL</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a6">
+                        <span>Adobe</span>
+                    </div>
+                    <div class="nro">Pregunta 6 de 10</div>
+                    <div id="resp6">La respuesta es: Git</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Cual es la etiqueta para definir una lista no ordenada?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a7">
+                        <span>ol</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a7">
+                        <span>al</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a7">
+                        <span>l</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a7" valid="valid">
+                        <span>ul</span>
+                    </div>
+                    <div class="nro">Pregunta 7 de 10</div>
+                    <div id="resp7">La respuesta es: ul</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Que se entiendo por SEO?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a8">
+                        <span>Software Entire Object</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a8">
+                        <span>server Enable out</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a8" valid="valid">
+                        <span>Search Engine Optimization</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a8">
+                        <span>Search Engine Oriented</span>
+                    </div>
+                    <div class="nro">Pregunta 8 de 10</div>
+                    <div id="resp8">La respuesta es: Search Engine Optimization</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Cual de estos es una biblioteca de javascript?</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a9" valid="valid">
+                        <span>React</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a9">
+                        <span>Tailwind</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a9">
+                        <span>bootstrap</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a9">
+                        <span>DOM</span>
+                    </div>
+                    <div class="nro">Pregunta 9 de 10</div>
+                    <div id="resp9">La respuesta es: React</div>
+                </div>
+                <div class="qa_set">
+                    <h4>¿Que se entiende por POO</h4>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="10">
+                        <span>Programación oportuna de objetos</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a10" valid="valid">
+                        <span>Programación orientada a objetos</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a10">
+                        <span>Objeto</span>
+                    </div>
+                    <div class="qa_ans_row">
+                        <input type="radio" class="a10">
+                        <span>Forma de configurar un servidor</span>
+                    </div>
+                    <div class="nro">Pregunta 10 de 10</div>
+                    <div id="resp10">La respuesta es: Programación orientada a objetos</div>
+                </div>
+                <div class="qa_set">
+                    <h4 class="not">Tu nota es: <span id="totalScore">0</span> de 5</h4>
+                    <span class="btn" id="res">Ver respuestas</span>
+                    <h3 id="aprob">Felicidades!, aprobaste.</h3>
+                    <h3 id="reprob">Quizás la proxima!, reprobaste.</h3>
+                </div>
+            </div>
+            <div class="qa_footer">
+                <span class="btn" id="prev">Anterior</span>
+                <span class="btn" id="skip">Siguiente</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="Js/Functions.js"></script>
+</body>
+
+</html>
