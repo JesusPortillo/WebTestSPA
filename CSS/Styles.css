@@ -215,3 +215,6 @@ li{
   margin-top: 10px;
   display: none;
 }
+.ws{
+  font: optional;
+}
